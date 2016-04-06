@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "name": "benjamindoe/Ichhus",
+    "description": "CMS designed for churches and christian groups. Based on The Laravel PHP Framework ",
+    "keywords": ["framework", "laravel", "php", "cms", "content","management", "christian", "chruch"],
+    "license": "GNU GPLv3",
     "type": "project",
     "require": {
         "php": ">=5.5.9",
