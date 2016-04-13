@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::group(['prefix' => 'admin'], function() {
+	Route::auth();
+	Route::get('/', 'AdminController@index');
+	Route::get('accounts', 'AdminController@accounts');
+	Route::get('accounts/add', 'AdminController@getAddAccountPage');
+	Route::post('accounts/add', 'AdminController@addAccount');
+});
